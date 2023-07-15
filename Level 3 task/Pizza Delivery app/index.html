@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Pizza Delivery application</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="navbar">
+                    <div class="logo">
+                        <h1>piZZa</h1>
+                    </div>
+                    <ul id="list" onclick="closeMenu()">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <div>
+                            <img src="images/close.jpeg" width="40px">
+                        </div>
+                    </ul>
+                    <div class="signup_sec">
+                        <ul>
+                            <li><a href="#">Sign up</a></li>
+                            <li><a href="#">Sign in</a></li>
+                        </ul>
+                    </div>
+                    <div class="mobile_menu" onclick="openMenu()">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Home Section -->
+        <section class="head_section">
+            <div class="home_section">
+                <div class="home_content">
+                    <h1>Welcome to our Store</h1>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Nostrum alias iusto possimus aliquid dignissimos laborum velit.
+                        A dolore ab vero quas officia blanditiis aliquam? Esse natus eaque quas magnam asperiores.
+                    </p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </section>
+        <!-- About section -->
+        <section>
+            <div class="about_section">
+                <div class="about_head">
+                    <h1>About</h1>
+                </div>
+                <div class="about_content">
+                    <div class="about_image">
+                        <img src="images/OIP.jpg">
+                    </div>
+                    <div class="about_info">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Fugit atque quam obcaecati non temporibus minima omnis tempora sint reprehenderit adipisci
+                            necessitatibus,
+                            veritatis voluptatibus magnam unde maiores, est cumque!
+                            Itaque,Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Voluptatum, explicabo modi officiis iusto distinctio illo at nostrum possimus perspiciatis
+                            eligendi impedit aliquam?
+                            officia excepturi veniam nostrum at dignissimos alias eum.
+                        </p>
+                        <ul>
+                            <li><a href="#">Good Qulity</a></li>
+                            <li><a href="#">Fresh vegetables</a></li>
+                            <li><a href="#">Available 24*7</a></li>
+                            <li><a href="#">Best Price</a></li>
+                            <li><a href="#">Best Quality</a></li>
+                        </ul>
+                        <a href="#" id="read">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services section -->
+        <section>
+            <div class="services_section">
+                <div class="service_head">
+                    <h1>Services</h1>
+                </div>
+                <div class="services">
+                    <div class="ser_block">
+                        <img src="images/delive.jpg" alt="">
+                        <h1>Free Delivery</h1>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Mollitia culpa inventore eius? Aliquam,
+                            hic quos ratione a omnis perferendis natus impedit.
+                        </p>
+                        <a href="#">Read More..</a>
+                    </div>
+                    <div class="ser_block">
+                        <img src="images/online pay.jpg" alt="">
+                        <h1>Pay Online</h1>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Mollitia culpa inventore eius? Aliquam,
+                            hic quos ratione a omnis perferendis natus impedit.
+                        </p>
+                        <a href="#">Read More..</a>
+                    </div>
+                    <div class="ser_block">
+                        <img src="images/freshfood.jpg" alt="">
+                        <h1>Fresh Food</h1>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Mollitia culpa inventore eius? Aliquam,
+                            hic quos ratione a omnis perferendis natus impedit.
+                        </p>
+                        <a href="#">Read More..</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Menu section -->
+        <section>
+            <div class="menu_section">
+                <div class="head_portion">
+                    <h1>Our Menu</h1>
+                </div>
+                <div class="menu_card">
+                    <div class="dishes">
+                        <img src="images/OIP (1).jpg" alt="">
+                        <div class="reviews">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <div class="name">
+                            <h2>Chizzos Pizza</h2>
+                        </div>
+                        <div class="price">
+                            <p>$50.00</p>
+                        </div>
+                        <div class="add_cart">
+                            <a href="#">Add to cart <i class="fa fa-arrow-up"></i></a>
+                        </div>
+                        <div class="like">
+                            <i class="fa fa-heart-o"></i>
+                        </div>
+                    </div>
+                    <div class="dishes">
+                        <img src="images/OIP (2).jpg" alt="">
+                        <div class="reviews">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <div class="name">
+                            <h2>Stringy Cheese Pizza</h2>
+                        </div>
+                        <div class="price">
+                            <p>$40.00</p>
+                        </div>
+                        <div class="add_cart">
+                            <a href="#">Add to cart <i class="fa fa-arrow-up"></i></a>
+                        </div>
+                        <div class="like">
+                            <i class="fa fa-heart-o"></i>
+                        </div>
+                    </div>
+                    <div class="dishes">
+                        <img src="images/OIP (3).jpg" alt="">
+                        <div class="reviews">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                        <div class="name">
+                            <h2>Margherita Pizza</h2>
+                        </div>
+                        <div class="price">
+                            <p>$60.00</p>
+                        </div>
+                        <div class="add_cart">
+                            <a href="#">Add to cart <i class="fa fa-arrow-up"></i></a>
+                        </div>
+                        <div class="like">
+                            <i class="fa fa-heart-o"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="btns">
+                    <a href="#">See All</a>
+                </div>
+            </div>
+        </section>
+        <!-- contact section -->
+        <footer>
+            <div class="contact_section">
+                <div class="contact_head">
+                    <h1>Contact</h1>
+                </div>
+                <div class="contact">
+                    <div class="first_item">
+                        <div class="logo_section">
+                            <p>
+                                Herber is an organic farm located in California. We offer healthy foods and products to
+                                our
+                                clients.
+                            </p>
+                        </div>
+                        <ul>
+                            <li><i class="fa fa-phone"></i> +1 323-913-4688</li>
+                            <li><i class="fa fa-clock-o"></i> Mon-Sat: 07:00AM - 05:00PM</li>
+                            <li><i class="fa fa-location-arrow"></i> 4730 Crystal Springs Dr, Los Angeles, CA 90027</li>
+                        </ul>
+                    </div>
+                    <div class="news_letter">
+                        <h2>Newsletter</h2>
+                        <p>Join our email newsletter for news and tips</p>
+                        <form action="post">
+                            <div class="in_field">
+                                <input type="email" placeholder="Enter your E-mail">
+                            </div>
+                            <button>Subscribe</button>
+                        </form>
+                        <p>follow us on
+                            <span>
+                                <i class="fa fa-facebook"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-google"></i>
+                                <i class="fa fa-instagram"></i>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        let menu_btn = document.getElementById('list');
+        function openMenu() {
+            menu_btn.style.top = "0px";
+        }
+        function closeMenu() {
+            menu_btn.style.top = "-400px";
+        }
+    </script>
+</body>
+
+</html>
